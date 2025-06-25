@@ -1,0 +1,33 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Terraform plan output
+*.tfplan
+
+# Sensitive override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# .terraform directory
+.terraform/
+
+# Private keys
+*.pem
+*.key
+*.crt
+
+# Environment or variable files
+.env
+*.auto.tfvars
+
+# OS or editor files
+.DS_Store
+*.swp
+.idea/
+.vscode/
