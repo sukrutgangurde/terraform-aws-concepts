@@ -13,6 +13,7 @@ Building a complete VPC setup
 Using modules to organize code
 
 Creating and securing S3 buckets
+creating ec2-instance code also provided
 
 Best practices in Terraform file structure
 
@@ -22,6 +23,8 @@ Terraform v1.0+
 AWS CLI configured (aws configure)
 
 An active AWS account
+
+you can modifiy your provider and region according to your requirements. in this case we have used AWS provider and region ap-south-1 
 
 
 clone this repo
